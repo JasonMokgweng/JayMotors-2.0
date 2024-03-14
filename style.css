@@ -6,7 +6,7 @@
 }
 
 body{
-    background: rgba(0, 0, 0, 0.5) url('AFA9904E-78EC-4734-9019-0EE219409E87_1_105_c.jpeg') center center fixed;
+    background: rgba(0, 0, 0, 0.5) url('_F8A6701.jpg') center center fixed;
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -41,6 +41,7 @@ nav{padding: 24px 0;
     text-decoration: none;
     color: whitesmoke;
     transition: 0.5s;
+
 }
 
 .nav-links a:hover{
@@ -98,4 +99,28 @@ button{
     left: 65%;
     background: rgb(78, 76, 76);
 }
+/* Media Queries for responsive layout */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
 
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
